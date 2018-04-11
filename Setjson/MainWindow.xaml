@@ -1,0 +1,20 @@
+﻿<Window x:Class="ModifyContentsPath.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ModifyContentsPath"
+        mc:Ignorable="d"
+        Title="VG 컨텐츠 경로 수정" Height="202.467" Width="347.646"
+        ResizeMode="NoResize"
+        >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox Name="inputPath" HorizontalAlignment="Left" Height="20.404" Margin="10,127.661,0,0" TextWrapping="Wrap" Text="C:" VerticalAlignment="Top" Width="231.502" TextChanged="inputPath_TextChanged"/>
+        <Button Content="적용" HorizontalAlignment="Left" Height="20.404" Margin="256.689,127.661,0,0" VerticalAlignment="Top" Width="62.905" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="112.661" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231.502" Foreground="Black"><Run Text="경로"/><Run Text="입력 D:"/><LineBreak/><Run Text="수정"/><Run Text="된 위치"/><Run Text=" D"/><Run Text=":\VirtualGate"/><LineBreak/><Run/><LineBreak/><Run Text="경로"/><Run Text="입력 C:\game"/><LineBreak/><Run Text="수정"/><Run Text="된 위치"/><Run Text=" C:\game\VirtualGate"/><LineBreak/><LineBreak/><Run Text="아래 칸에 "/><Run Text="수정"/><Run Text="할"/><Run Text=" 경로를 입력"/><Run Text="하세요"/><LineBreak/></TextBlock>
+
+    </Grid>
+</Window>
