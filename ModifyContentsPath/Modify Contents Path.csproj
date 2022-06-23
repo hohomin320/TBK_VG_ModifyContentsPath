@@ -56,13 +56,13 @@
     <ManifestCertificateThumbprint>816307B593F5147086F8BE6C8DDE532575276EBD</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Setjson_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>ModifyContentsPath_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>ModifyContentsPath.App</StartupObject>

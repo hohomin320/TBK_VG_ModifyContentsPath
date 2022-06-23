@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modify Contents Path", "Setjson\Modify Contents Path.csproj", "{5CA588DF-9D09-4A7E-A9ED-08A3B4C49C6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modify Contents Path", "ModifyContentsPath\Modify Contents Path.csproj", "{5CA588DF-9D09-4A7E-A9ED-08A3B4C49C6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
